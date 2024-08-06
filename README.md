@@ -27,10 +27,10 @@ The Ocarina Fingering Generator is a tool designed to help ocarina players easil
 
 ### English
 
-1. **Download the Installer**: You can download the installer from the [latest release](https://github.com/YourUsername/OcarinaFingeringGenerator/releases) on GitHub.
+1. **Download the Installer**: You can download the installer from the [latest release](https://github.com/ValleyC/OcarinaFingeringGenerator/releases) on GitHub.
 
 2. **Run the Installer**:
-   - Double-click the `OcarinaFingeringGeneratorSetup.exe` file to start the installation.
+   - Double-click the `OcarinaFGSetup.exe` file to start the installation.
    - Follow the on-screen instructions to complete the installation process.
 
 3. **Launch the Application**:
@@ -38,10 +38,10 @@ The Ocarina Fingering Generator is a tool designed to help ocarina players easil
 
 ### 中文
 
-1. **下载安装程序**: 您可以从GitHub的[最新版本](https://github.com/YourUsername/OcarinaFingeringGenerator/releases)下载安装程序。
+1. **下载安装程序**: 您可以从GitHub的[最新版本](https://github.com/ValleyC/OcarinaFingeringGenerator/releases)下载安装程序。
 
 2. **运行安装程序**:
-   - 双击 `OcarinaFingeringGeneratorSetup.exe` 文件开始安装。
+   - 双击 `OcarinaFGSetup.exe` 文件开始安装。
    - 按照屏幕上的说明完成安装过程。
 
 3. **启动应用程序**:
@@ -49,10 +49,10 @@ The Ocarina Fingering Generator is a tool designed to help ocarina players easil
 
 ### 日本語
 
-1. **インストーラーのダウンロード**: GitHubの[最新リリース](https://github.com/YourUsername/OcarinaFingeringGenerator/releases)からインストーラーをダウンロードできます。
+1. **インストーラーのダウンロード**: GitHubの[最新リリース](https://github.com/ValleyC/OcarinaFingeringGenerator/releases)からインストーラーをダウンロードできます。
 
 2. **インストーラーを実行する**:
-   - `OcarinaFingeringGeneratorSetup.exe`ファイルをダブルクリックしてインストールを開始します。
+   - `OcarinaFGSetup.exe`ファイルをダブルクリックしてインストールを開始します。
    - 画面上の指示に従ってインストールプロセスを完了します。
 
 3. **アプリケーションの起動**:
