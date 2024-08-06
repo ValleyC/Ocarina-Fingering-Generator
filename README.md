@@ -27,7 +27,7 @@ The Ocarina Fingering Generator is a tool designed to help ocarina players easil
 
 ### English
 
-1. **Download the Installer**: You can download the installer from the [latest release](https://github.com/ValleyC/OcarinaFingeringGenerator/releases) on GitHub.
+1. **Download the Installer**: You can download the installer from the [latest release](https://github.com/ValleyC/Ocarina-Fingering-Generator/releases) on GitHub.
 
 2. **Run the Installer**:
    - Double-click the `OcarinaFGSetup.exe` file to start the installation.
@@ -38,7 +38,7 @@ The Ocarina Fingering Generator is a tool designed to help ocarina players easil
 
 ### 中文
 
-1. **下载安装程序**: 您可以从GitHub的[最新版本](https://github.com/ValleyC/OcarinaFingeringGenerator/releases)下载安装程序。
+1. **下载安装程序**: 您可以从GitHub的[最新版本](https://github.com/ValleyC/Ocarina-Fingering-Generator/releases)下载安装程序。
 
 2. **运行安装程序**:
    - 双击 `OcarinaFGSetup.exe` 文件开始安装。
@@ -49,7 +49,7 @@ The Ocarina Fingering Generator is a tool designed to help ocarina players easil
 
 ### 日本語
 
-1. **インストーラーのダウンロード**: GitHubの[最新リリース](https://github.com/ValleyC/OcarinaFingeringGenerator/releases)からインストーラーをダウンロードできます。
+1. **インストーラーのダウンロード**: GitHubの[最新リリース](https://github.com/ValleyC/Ocarina-Fingering-Generator/releases)からインストーラーをダウンロードできます。
 
 2. **インストーラーを実行する**:
    - `OcarinaFGSetup.exe`ファイルをダブルクリックしてインストールを開始します。
@@ -74,10 +74,16 @@ The Ocarina Fingering Generator is a tool designed to help ocarina players easil
 4. **Enter the Note Sequences**:
    - In the text box labeled "Enter Note Sequences," input the notes for which you want to generate fingerings.
    - Notes should be separated by spaces, and each line will represent a new sequence of notes.
+   - **Symbols Explanation**:
+     - **`-`**: Indicates lower octave (e.g., `-2`).
+     - **`#`**: Indicates sharp notes (e.g., `#5`).
+     - **`+`**: Indicates higher octave (e.g., `+1`).
+     - **Note**: Flat (`b`) symbols are not supported directly; use the equivalent sharp note instead (e.g., use `#5` instead of `b6`).
    - Example input: 
      ```
      -2 3 4 #5 6
      1 2 #4 5 #6
+     -7 +1 #+2 +3 #+4
      ```
 
 5. **Specify the Output Filename**:
@@ -101,10 +107,16 @@ The Ocarina Fingering Generator is a tool designed to help ocarina players easil
 4. **输入音符序列**:
    - 在标有“输入音符序列”的文本框中，输入要生成指法的音符。
    - 音符应以空格分隔，每一行代表一组新的音符序列。
+   - **符号说明**:
+     - **`-`**: 表示低八度音符（例如 `-2`）。
+     - **`#`**: 表示升音符（例如 `#5`）。
+     - **`+`**: 表示高八度音符（例如 `+1`）。
+     - **注意**: 不支持直接输入降号（`b`），请使用对应的升号音符（例如使用 `#5` 代替 `b6`）。
    - 示例输入:
      ```
      -2 3 4 #5 6
      1 2 #4 5 #6
+     -7 +1 #+2 +3 #+4
      ```
 
 5. **指定输出文件名**:
@@ -128,10 +140,16 @@ The Ocarina Fingering Generator is a tool designed to help ocarina players easil
 4. **音符のシーケンスを入力する**:
    - 「Enter Note Sequences」とラベル付けされたテキストボックスに、指使いを生成したい音符を入力します。
    - 音符はスペースで区切る必要があり、各行は新しい音符のシーケンスを表します。
+   - **記号の説明**:
+     - **`-`**: 低音オクターブの音符を示します（例：`-2`）。
+     - **`#`**: シャープ（#）記号の音符を示します（例：`#5`）。
+     - **`+`**: 高音オクターブの音符を示します（例：`+1`）。
+     - **注意**: フラット（`b`）記号は直接サポートされていませんので、代わりに同等のシャープ（#）記号を使用してください（例：`b6` の代わりに `#5` を使用）。
    - 例:
      ```
      -2 3 4 #5 6
      1 2 #4 5 #6
+     -7 +1 #+2 +3 #+4
      ```
 
 5. **出力ファイル名を指定する**:
